@@ -1,0 +1,2 @@
+rootProject.name='BoadCastIntent'
+include ':app'

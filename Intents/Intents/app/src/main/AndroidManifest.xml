@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.intents"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MyBlogViewerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".NostromoController">
+            <intent-filter android:label="Nuke From Orbit">
+                <action android:name="com.pad.nostromo.NUKE_FROM_ORBIT" />
+                <data android:mimeType="vnd.moonbase.cursor.item/*"/>
+
+                <category android:name="android.intent.category.ALTERNATIVE"/>
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE"/>
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".MyReceiver">
+            <intent-filter>
+               <action android:name="com.paad.intents.MyReceiverAction"/>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".SelectHorseActivity"
+            android:label="Select Horse"/>
+
+        <activity
+            android:name=".SelectGunActivity"
+            android:label="Select Gun"/>
+
+        <activity
+            android:name=".MyOtherActivity"
+            android:label="Other Activity" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Intents">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DeviceStateActivity"
+            android:label="Device State"/>
+    </application>
+
+</manifest>

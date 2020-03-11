@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MyActivity!</string>
+    <string name="app_name">Views</string>
+    <string name="MyTextView">MyTextView</string>
+    <string name="Clear">Clear</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, LayoutsActivity!</string>
+  <string name="app_name">Layouts</string>
+  <string name="ok_button_text">OK</string>
+  <string name="cancel_button_text">Cancel</string>
+    <string name="cancel">Cancel</string>
+  <string name="ok">OK</string>
+  <string name="relative_layout">Relative Layout</string>
+  <string name="grid_layout">Grid Layout</string>
+  <string name="linear_layout">Linear Layout</string>
+</resources>
