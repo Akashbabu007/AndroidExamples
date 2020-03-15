@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Internet</string>
+    <string name="hello">Hello World, MyActivity!</string>
+    <string name="my_feed">https://sites.google.com/site/retossamplesfortesting/sample-files/sample_place_data.xml</string>
+    <string name="open_data_stream">Open Data Stream</string>
+    <string name="download_with_downloadmanager">Download with download manager</string>
+    <string name="display_download_status">Display download buttons</string>
+</resources>
